@@ -1,0 +1,60 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #040714;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 25px;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+  .container {
+    max-width: 720px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+  .container {
+    max-width: 960px;
+  }
+}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) { 
+  .container {
+    max-width: 1320px;
+  }
+}
